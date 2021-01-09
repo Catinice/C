@@ -3,7 +3,7 @@ int main()
 {
 // Creating Variables..
 int num1,num2,num3;
-int a,b,;
+int a,b;
 //Taking Input From The User..
 printf("Enter number 1 :\n");
 printf("Enter number 2 :\n");
