@@ -2,6 +2,9 @@
 
 int main()
 {
+/* 
+Creating Variables and Taking inputs from User
+*/
     int a,b,c;
     printf("ENTER FIRST SIDE OF THE TRIANGLE:\n");   
     scanf("%d", &a);
@@ -10,7 +13,9 @@ int main()
     printf("ENTER THIRD SIDE OF THE TRIANGLE:\n");
     scanf("%d", &c);
 
-
+/*
+If and Else stuff
+*/
     if(a==b==c){
     printf("This is an equilateral Triangle\n");
 }
