@@ -14,7 +14,7 @@ int main()
     if(a==b==c){
     printf("This is an equilateral Triangle\n");
 }
-    if(a != b && b !=c){
+    if(a != b && b !=c && a != c){
     printf("This is an Scalene Triangle\n");
 }
     if(a == b && a != c){
