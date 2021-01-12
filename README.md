@@ -1,5 +1,7 @@
 
-# INTRODUCTION
+# C PROGRAMMING
+
+### INTRODUCTION
 C (/ s iː /, as in the letter c) is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.By design, C provides constructs that map efficiently to typical machine instructions.It has found lasting use in applications previously coded in assembly language.Such applications include operating systems and various application software for computer architectures that range from supercomputers ...
 
 ---
@@ -20,38 +22,8 @@ Kernighan and Ritchie say in the Introduction of The C Programming Language: "C,
 #### RESERVED WORDS
 
 C89 has 32 reserved words, also known as keywords, which are the words that cannot be used for any purposes other than those for which they are predefined:
-'''auto
-break
-case
-char
-const
-continue
-default
-do
-double
-else
-enum
-extern
-float
-for
-goto
-if
-int
-long
-register
-return
-short
-signed
-sizeof
-static
-struct
-switch
-typedef
-union
-unsigned
-void
-volatile
-while'''
+```break case char const continue default do double else enum extern float for goto if int long register return short signed sizeof static structs witch typedef union unsigned void volatile while```
+
 
 
 # WORK IN PROGRESS (WIP.)
