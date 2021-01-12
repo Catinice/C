@@ -26,13 +26,13 @@ int main()
 
         printf("Two distinct and real roots exists: %.2f and %.2f", root1, root2);
     }
-    if(discriminant == 0)
+    else if(discriminant == 0)
     {
         root1 = root2 = -b / (2 * a);
 
         printf("Two equal and real roots exists: %.2f and %.2f", root1, root2);
     }
-    if(discriminant < 0)
+    else if(discriminant < 0)
     {
         root1 = root2 = -b / (2 * a);
         imaginary = sqrt(-discriminant) / (2 * a);
