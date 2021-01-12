@@ -2,21 +2,16 @@
 
 int main()
 {
-/* 
-Creating Variables and Taking inputs from User
-*/
     int a,b,c;
     printf("ENTER FIRST SIDE OF THE TRIANGLE:\n");   
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("ENTER SECOND SIDE OF THE TRIANGLE:\n");
-    scanf("%d", &b); 
+    scanf("%f", &b); 
     printf("ENTER THIRD SIDE OF THE TRIANGLE:\n");
-    scanf("%d", &c);
+    scanf("%f", &c);
 
-/*
-If and Else stuff
-*/
-    if(a==b==c){
+
+    if(a == b && a == c){
     printf("This is an equilateral Triangle\n");
 }
     if(a != b && b !=c && a != c){
@@ -28,11 +23,16 @@ If and Else stuff
     if(a == c && a != b){
     printf("This is an Icosless Triangle\n");
 }
-
-    else{
-    printf("Ignore above message and Please Enter a Vaild string !");
+    if(b == c && b != a){
+    printf("This is an Icosless Triangle\n");
 }
-
-    
+    if(b == c && c != a){
+    printf("This is an Icosless Triangle\n");
+}
+/*Commenting because Its giving weird shitty Errors
+   else{
+    printf("The Entered Value Is not a valid String!");
+}
+*/
     return 0;
 }
