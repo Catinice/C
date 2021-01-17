@@ -10,7 +10,7 @@ int main()
     printf("Enter Your Maths Marks:\n");
     scanf("%d",&maths);
     
-    total = phy + che + maths;
+    total = (phy + che + maths)/3;
 
     if(total < 40 || maths < 33 ||che < 33 || phy < 33){
     printf("You are Failed ! ");
