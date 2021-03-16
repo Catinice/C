@@ -18,7 +18,7 @@ int main()
 int check(int n)
 {
     int a=2;
-    while(a<n) {
+    while(a<n/2) {
         if(n%a==0)
             return 0;
         else
