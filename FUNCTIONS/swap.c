@@ -13,7 +13,8 @@ int main()
     
     printf("Numbers Before swapping:  %d And %d\n",n,m);
     
-    swap(m,n);
+    swap(&m,&n); 
+*/ Address M and N While calling Swap() */
     
     printf("Numbers After swapping:  %d And %d\n",n,m);
 
