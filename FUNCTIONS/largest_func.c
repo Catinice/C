@@ -11,19 +11,14 @@ int main()
 //display the output on the screen
     return 0;
 }
-int check(int a,int b,int c){//function definition with parameter
-if(a>b)
-{
-    if(a>c)
-    return a;
-    else
-        return c;
-}
-else
-{
-    if(b>c)
+int check(int a,int b,int c) { //function definition with parameter
+    if(a>b && a>c) {
+        return a;
+    }
+    else if(b>a && b>c) {
         return b;
-    else
+    }
+    else {
         return c;
-}
+    }
 }
