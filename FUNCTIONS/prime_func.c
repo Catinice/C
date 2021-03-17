@@ -19,10 +19,12 @@ int check(int n)
 {
     int a=2;
     while(a<n/2) {
-        if(n%a==0)
+        if(n%a==0){
             return 0;
-        else
+           }
+        else{
             a++;
+           }
     }
     return 1;
 }
